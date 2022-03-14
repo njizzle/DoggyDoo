@@ -1,0 +1,188 @@
+/* General */
+
+body {
+    font-family: montserrat;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+
+h1 {
+    font-family: 'Montserrat';
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-size: 2rem;
+    line-height: 1.5;
+    color: white;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'Montserrat-bold';
+    font-size: 1.5rem;
+    margin-top: 2%;
+}
+
+/* Nav bar */
+
+.navbar {
+    padding: 0px 0px 4rem;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+    padding-bottom: 0%;
+}
+
+.nav-item {
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: monserrat-light;
+}
+
+.margin-button {
+    margin: 5% 3% 5% 0px;
+}
+
+
+/* Feautures */
+.solid {
+    color: #ef8172;
+    font-size: 3.5rem;
+}
+
+.solid:hover {
+    color: red;
+}
+
+.desc {
+    color: #8f8f8f;
+}
+
+.tbox {
+    padding-top: 5%;
+}
+
+#features {
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+
+
+#img {
+    width: 60%;
+    transform: rotate(25deg);
+    position: relative;
+    left: 20%;
+}
+
+
+
+
+#brand {
+    padding-left: 3%;
+    font-size: 2rem;
+    font-family: ubuntu;
+    font-weight: bold;
+}
+
+#tbox {
+    margin: 3%
+}
+
+
+
+
+/* testimonials */
+
+#testimonials {
+
+    background-color: #ef8172;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 10px;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+}
+
+.test-img {
+    margin: 20px 20px 50px;
+    width: 8%;
+
+}
+
+/* subscriptions */
+
+#subscriptions {
+    padding: 1% 10% 3 10;
+
+}
+
+/* Final */
+
+#cta {
+    padding-bottom: 5%;
+}
+
+#footer {
+    background-color: #fff;
+}
+
+.fa-brands {
+    Margin: 3% 10px 0px;
+}
+
+.fa-brands:hover {
+    color: #8f8f8f;
+}
+
+.fa-solid {
+    margin: 10px;
+}
+
+.fa-solid:hover {
+    color: #8f8f8f;
+}
+
+
+/* Responsiveness */
+
+@media (max-width: 1028px) {
+
+    #img {
+        position: static;
+        transform: rotate(0deg);
+    }
+
+    #title {
+        text-align: center;
+    }
+}
